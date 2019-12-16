@@ -1,3 +1,3 @@
-export default function findBy(propName, propValue) {
-  return (el) => el[propName] === propValue;
-}
+const findBy = (propName, propValue) => (el) => el[propName] === propValue;
+
+export default findBy;
